@@ -8,11 +8,6 @@ h1 {
     text-align: center;
 }
 
-div.row {
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
 div#container {
     border: 1px solid black;
     background-color: grey;
