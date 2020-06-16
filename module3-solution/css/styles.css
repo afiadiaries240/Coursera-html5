@@ -78,10 +78,15 @@ body {
   margin-right: auto;
   margin-bottom: 15px;
   padding: 20px;
-  height: 1100px;
+  height: 1000px;
   width: 100%;
   box-shadow: 0 1px 5px 1px lightseagreen;
   position: relative;
+}
+
+#contents #item_A .para, #contents #item_B .para, #contents #item_C .para {
+  height: 90%;
+  overflow: hidden;
 }
 
 #contents #item_A:hover, #contents #item_B:hover, #contents #item_C:hover {
