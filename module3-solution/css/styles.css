@@ -1,0 +1,169 @@
+body {
+  font-size: 16x;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/************ Header ****************/
+
+#navbar-main {
+  background-color: lightseagreen;
+  border-top: 2px solid darkslategray;
+  border-bottom: 2px solid darkslategray;
+}
+
+.navbar-brand {
+  padding-left: 12px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.navbar-brand h1 {
+  color: darkslateblue;
+  text-align: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px darkcyan;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: 1.5px solid darkslateblue;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: darkslategray;
+  text-align: center;
+  border-top: 2px solid darkslategray;
+}
+
+#nav-list a:hover, .navbar-light .navbar-toggler:hover {
+  background: lightcyan;
+}
+
+#nav-list a h3 {
+  font-size: 1.6em;
+}
+
+/************ End of Header **************/
+
+
+/************** Main **************/
+
+#main-content {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-content h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#contents {
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+}
+
+#contents #item_A, #contents #item_B, #contents #item_C {
+  background-color: #ebfaf2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+  height: 1100px;
+  width: 100%;
+  box-shadow: 0 1px 5px 1px lightseagreen;
+  position: relative;
+}
+
+#contents #item_A:hover, #contents #item_B:hover, #contents #item_C:hover {
+  box-shadow: 0 1px 5px 1px darkslateblue;
+}
+
+.heads {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#contents p {
+  text-align: justify;
+  font-style: italic;
+}
+
+#contents span {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1em;
+  color: #cc6600;
+}
+
+span:hover {
+  color: #804000;
+}
+
+/************** End of Main **************/
+
+
+/************** Footer **************/
+
+.footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: darkslategray;
+}
+
+.footer .footer-text {
+  color: lightcyan;
+}
+
+/************** End of Footer **************/
+
+/********** Extra Large devices only (Desktop) **********/
+
+@media (min-width: 1200px) {
+  #nav-list {
+    display: none;
+  }
+}
+
+/********** Large devices only (Desktop) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav-list {
+    display: none;
+  }
+}
+
+/********** Medium devices only (Desktop) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list {
+    display: none;
+  }
+}
+
+/********** Small devices only (Tablet) **********/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #nav-list {
+    display: none;
+  }
+}
+
+/********** Extra small devices only (Mobile) **********/
+
+@media (max-width: 575px) {}
