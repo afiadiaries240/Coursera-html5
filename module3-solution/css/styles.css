@@ -62,7 +62,6 @@ body {
 }
 
 #main-content h1 {
-  text-align: center;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -128,6 +127,8 @@ span:hover {
 
 .footer .footer-text {
   color: lightcyan;
+  font-size: 14px;
+  line-height: 0.9;
 }
 
 /************** End of Footer **************/
